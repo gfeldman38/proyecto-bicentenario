@@ -67,6 +67,14 @@ body {
 
 /* servicios  */
 .servicios {
-    color: #b80ae4;
+    color: #15015c;
     text-decoration: underline;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: blue;
 }
