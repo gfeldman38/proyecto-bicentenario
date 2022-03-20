@@ -3,9 +3,7 @@ body {
     background-color: #e9e3e3;
 }
 
-a:hover {
-    color: #15015c;
-}
+
 
 
 
@@ -48,6 +46,11 @@ a:hover {
 .icons a {
     color: black;
 }
+
+.icons a:hover {
+    color: #f80000;
+}
+
 
 .boton {
     background: #641ee7;
@@ -97,11 +100,5 @@ h1 {
 @media screen and (max-width: 1200px) {
     .sacar {
         display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .barra {
-        
     }
 }
