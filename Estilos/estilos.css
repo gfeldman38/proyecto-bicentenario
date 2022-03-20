@@ -3,6 +3,10 @@ body {
     background-color: #e9e3e3;
 }
 
+a:hover {
+    color: #15015c;
+}
+
 
 
 .ford-f350 {
@@ -77,4 +81,22 @@ h4 {
 
 h1 {
     color: blue;
+}
+
+.tarjetas {
+    padding: 2rem;
+}
+
+/* tablet */
+
+@media screen and (max-width: 1200px) {
+    .sacar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .barra {
+        
+    }
 }
