@@ -88,7 +88,9 @@ h4 {
 }
 
 h1 {
-    color: blue;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(145, 11, 111);
+    text-decoration: underline;
 }
 
 .tarjetas {
@@ -98,6 +100,13 @@ h1 {
 /* tablet */
 
 @media screen and (max-width: 1200px) {
+    .sacar {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
     .sacar {
         display: none;
     }
