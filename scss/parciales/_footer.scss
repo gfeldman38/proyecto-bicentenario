@@ -1,0 +1,33 @@
+ /* Footer */
+
+
+ .container__footer {
+    display: flex;
+    max-width: 1200 px;
+    margin: 0 auto;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9e3e3;
+}
+
+.footer img{
+    width: 20%;
+    height: 30%;
+}
+
+
+.icons{
+    text-align: end;
+    display: flex;
+    gap: 10px;
+    display: flex;
+    & a {
+        color: black;
+    }
+    
+    & a:hover {
+        color: "$boton";
+    }
+}
+

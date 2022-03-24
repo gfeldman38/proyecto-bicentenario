@@ -1,0 +1,29 @@
+.boton {
+    background: #641ee7;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 22px;
+    transition: .3s ease all;
+
+    &:hover {
+        background: "$boton";
+    }
+
+    &:hover {
+        background: "$boton";
+    }
+    
+    &.verde {
+        background: #00a04a;
+    }
+    
+    &.verde:hover {
+        background: #00833d;
+    }
+}
+

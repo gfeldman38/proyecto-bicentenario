@@ -1,0 +1,79 @@
+body {
+  background-color: #e9e3e3; }
+
+.ford-f350 {
+  width: 100%;
+  height: 20%; }
+
+.scania {
+  width: 60%;
+  height: 60%; }
+
+/* servicios  */
+.servicios {
+  color: #15015c;
+  text-decoration: underline; }
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: #910b6f;
+  text-decoration: underline; }
+
+.tarjetas {
+  padding: 2rem; }
+
+.boton {
+  background: #641ee7;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 22px;
+  transition: .3s ease all; }
+  .boton:hover {
+    background: "$boton"; }
+  .boton:hover {
+    background: "$boton"; }
+  .boton.verde {
+    background: #00a04a; }
+  .boton.verde:hover {
+    background: #00833d; }
+
+/* Footer */
+.container__footer {
+  display: flex;
+  max-width: 1200 px;
+  margin: 0 auto;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9e3e3; }
+
+.footer img {
+  width: 20%;
+  height: 30%; }
+
+.icons {
+  text-align: end;
+  display: flex;
+  gap: 10px;
+  display: flex; }
+  .icons a {
+    color: black; }
+  .icons a:hover {
+    color: "$boton"; }
+
+/* tablet */
+@media screen and (max-width: 1200px) {
+  .sacar {
+    display: none; } }
+
+@media screen and (max-width: 600px) {
+  .sacar {
+    display: none; } }
