@@ -1,13 +1,15 @@
  /* Footer */
 
 
+
+
+
+
  .container__footer {
-    display: flex;
     max-width: 1200 px;
+    @include crearflex(space-between, center) ;
     margin: 0 auto;
     padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
     background-color: #e9e3e3;
 }
 

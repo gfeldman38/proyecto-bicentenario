@@ -11,3 +11,53 @@ body {
     width: 60%;
     height: 60%;
 }
+
+:root {
+    --fuente: 'Raleway', sans-serif;
+    --fondo: #f2f2f2;
+    --ancho-contenedor: 1200px;
+}
+
+.contenedor {
+max-width: 90%;
+width: var(--ancho-contenedor);
+margin: 20px auto;
+overflow: hidden;
+}
+
+.tarjeta {
+padding: 40px;
+background: rgb(243, 103, 103);
+border-radius: 3px;
+box-shadow: 0px 0px 30px rgba(221,221,221,0.3);
+}
+.tarjeta-1 {
+padding: 40px;
+background: #e9e3e3;
+border-radius: 3px;
+box-shadow: 0px 0px 30px rgba(221,221,221,0.3);
+}
+
+// / espaciado 1rem */
+
+$espaciado: 1rem;
+$espaciados: (
+    0: 0,
+    1: $espaciado * 0.25,
+    2: $espaciado * 0.5,
+    3: $espaciado,
+    4: $espaciado * 2,
+    5: $espaciado * 4
+);
+
+@each $clave, $valor in $espaciados {
+    .pd-#{$clave} {
+        padding: $valor;
+    }
+}
+
+@each $clave, $valor in $espaciados {
+    .mbt-#{$clave} {
+        margin-bottom: $valor;
+    }
+}

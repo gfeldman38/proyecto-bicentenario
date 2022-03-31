@@ -1,0 +1,5 @@
+@mixin crearflex($eje-principal, $eje-secundario) {
+    display: flex;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+}
