@@ -1,16 +1,12 @@
  /* Footer */
 
-
-
-
-
-
- .container__footer {
+.container__footer {
     max-width: 1200 px;
     @include crearflex(space-between, center) ;
     margin: 0 auto;
     padding: 1rem;
     background-color: #e9e3e3;
+    position: relative;
 }
 
 .footer img{
@@ -25,11 +21,11 @@
     gap: 10px;
     display: flex;
     & a {
-        color: black;
+        color: blue;
     }
     
     & a:hover {
-        color: "$boton";
+        color: var(--pasada);
     }
 }
 

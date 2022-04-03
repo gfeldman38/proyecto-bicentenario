@@ -4,16 +4,22 @@
     text-decoration: underline;
 }
 
-h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 h1 {
     font-family: 'Libre Baskerville', serif;
     color: rgb(145, 11, 111);
     text-decoration: underline;
     padding: 2 rem;
 }
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: var(--fuente);
+}
+
+
 
 .tarjetas {
     padding: 2rem;
