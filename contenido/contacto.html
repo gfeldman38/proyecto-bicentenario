@@ -24,7 +24,7 @@
             <div class="row">
                             <!-- Navigation -->
                 <nav class="navbar navbar-expand-lg navbar-light  static-top">   
-                    <div class="container">
+                    <div class="container nav">
                         <a class="navbar-brand" href="../index.html">
                             <img src="../imagenes/logobicentenario.png" alt="logo" height="36">
                         </a>
@@ -33,9 +33,7 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                                </li>
+                               
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
                                 </li>
@@ -58,36 +56,11 @@
     
 
         <main>
-            <div class="contenedor tarjeta-1">
+            <div class="contenedor tarjeta">
                 <h1>CONTACTO</h1>
             </div>
-            <section class="tarjetas">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
-                        <img src="../imagenes/Sin títul4.png" class="card-img-top" alt="ubicacion cordoba">
-                        <div class="card-body">
-                            <h5 class="card-title">Casa central</h5>
-                            <p class="card-text">Bernardo de Irigoyen B° San Vicente CORDOBA Teléfonos:(0351) 4581166 / 4553192.</p>
-                            <a href="https://www.google.com/maps/place/Expreso+Bicentenario+S.R.L./@-31.4175328,-64.1574169,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a2b1c2a7d5a1:0x86a39f63842cefaf!8m2!3d-31.4175328!4d-64.1552282" target="blank"" class="btn btn-primary">Google Map</a>
-                        </div>
-                    </div>
-                </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                        <img src="../imagenes/Sin títul5.png" class="card-img-top" alt="ubicacion bs as">
-                            <div class="card-body">
-                                <h5 class="card-title">Sucursal Buenos Aires</h5>
-                                <p class="card-text">Julio Troxler 3120 villa Soldati BUENOS AIRES Teléfonos:(011) 49190044 / 49199433.</p>
-                                <a href="https://www.google.com/maps/place/Expreso+Bicentenario+SRL/@-34.6674368,-58.4338021,15z/data=!4m2!3m1!1s0x0:0x96b383a3b7886835?sa=X&ved=2ahUKEwjbwunYlo_2AhW7JbkGHQEvAUgQ_BJ6BAgOEAU" target="blank" class="btn btn-primary">Google Map</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>      
-            </section>
-            
-            
-            <!-- utilizado en cotizacion, contacto y servicios. -->
+        <!-- utilizado en cotizacion, contacto y servicios. -->
+        
             <section>
                 <form >
                     <div class="container">
@@ -125,11 +98,10 @@
                                 <label for="formFileSm" class="form-label"></label>
                                 <input class="form-control form-control-sm" id="formFileSm" type="file">
                             </div>
-                            <div class="form-check pd-2">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                                <label class="form-check-label" for="flexCheckIndeterminate">
-                                    <p>No soy robot</p>
-                                </label>
+                            <div>
+                                <label for="robot">No soy un robot</label>
+                                <input type="checkbox" name="nosoyunrobot" id="robot">
+                            </div>
                             </div>
                             
                             <div class="pd-4">
@@ -141,6 +113,33 @@
                 </form>
             </section>
         </main>
+
+        <section class="tarjeta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <img src="../imagenes/san-vicente.png" class="card-img-top" alt="ubicacion cordoba">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa central Cordoba</h5>
+                            <p class="card-text">Bernardo de Irigoyen B° San Vicente CORDOBA Teléfonos:(0351) 4581166 / 4553192.</p>
+                            <a href="https://www.google.com/maps/place/Expreso+Bicentenario+S.R.L./@-31.4175328,-64.1574169,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a2b1c2a7d5a1:0x86a39f63842cefaf!8m2!3d-31.4175328!4d-64.1552282" target="blank"" class="btn btn-primary">Google Map</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                            <img src="../imagenes/villa soldati.png" class="card-img-top" alt="ubicacion bs as">
+                        <div class="card-body">
+                            <h5 class="card-title">Sucursal Buenos Aires</h5>
+                            <p class="card-text">Julio Troxler 3120 villa Soldati BUENOS AIRES Teléfonos:(011) 49190044 / 49199433.</p>
+                            <a href="https://www.google.com/maps/place/Expreso+Bicentenario+SRL/@-34.6674368,-58.4338021,15z/data=!4m2!3m1!1s0x0:0x96b383a3b7886835?sa=X&ved=2ahUKEwjbwunYlo_2AhW7JbkGHQEvAUgQ_BJ6BAgOEAU" target="blank" class="btn btn-primary">Google Map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </section>
+
                 
 
 <footer class="container border">

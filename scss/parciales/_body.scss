@@ -16,30 +16,35 @@ html, body {
     text-transform: uppercase;
     text-align: center;
     font-family: var(--fuente);
-  }
-  
-  article {
+}
+
+article {
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
-  }
-  
-  header {
+}
+
+header {
     background: rgb(121, 106, 114);
     padding: 1rem;
-  }
-  
-  main {
-    background: whitesmoke;
+}
+
+main {
+    background: $fondo;
     color: #444;
     padding: 1rem;
-  }
-  
-  footer {
+}
+
+footer {
     background: none;
     padding: 0rem;
-  }
+}
+
+.nav a.activo,
+.nav a:hover {
+    background: violet;
+}
 
 
 
@@ -64,9 +69,9 @@ overflow: hidden;
 
 .tarjeta {
 padding: 40px;
-background: rgb(243, 103, 103);
+background: $fondo;
 border-radius: 3px;
-box-shadow: 0px 0px 30px rgba(221,221,221,0.3);
+// box-shadow: 0px 0px 30px rgba(221,221,221,0.3);
 }
 .tarjeta-1 {
 padding: 40px;
