@@ -36,7 +36,7 @@ footer {
 
 .nav a.activo,
 .nav a:hover {
-  background: violet; }
+  background: #5555fa; }
 
 .ford-f350 {
   width: 100%;
@@ -175,4 +175,10 @@ p {
   .justificar {
     text-align: left; }
   .container__footer {
+    padding: 1rem; }
+  .esp {
     padding: 1rem; } }
+
+@media screen and (max-width: 600px) {
+  .tamanoletra {
+    font-size: 1.8rem; } }
